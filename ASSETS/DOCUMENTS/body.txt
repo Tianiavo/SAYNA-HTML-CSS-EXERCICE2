@@ -1,0 +1,47 @@
+body
+{
+    background-color: #ababab;
+    position: relative;
+}
+/*barre de navigation*/
+ul
+{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+li
+{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+a
+{
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px 30px;
+    vertical-align: middle;
+}
+a.active
+{
+    color: #3d9f96;
+    text-decoration: underline;
+    width: 100px;
+    text-align: center;
+}
+/*black content*/
+.black
+{
+    background-color: #27242b;
+}
+.text
+{
+    text-align: center;
+    color: #FFFFFF;
+}
